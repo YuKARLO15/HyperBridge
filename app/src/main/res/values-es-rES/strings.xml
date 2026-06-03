@@ -85,8 +85,8 @@
     <string name="cat_other">Otros</string>
     <string name="select_active_notifs">Notificaciones activas</string>
     <string name="type_standard">Mensajes y General</string>
-    <string name="type_progress">Progress &amp; Tasks</string>
-    <string name="type_download">Downloads</string>
+    <string name="type_progress">Progreso y Tareas</string>
+    <string name="type_download">Descargas</string>
     <string name="type_media">Música y Multimedia</string>
     <string name="type_nav">Mapas y GPS</string>
     <string name="type_call">Llamadas</string>
@@ -618,8 +618,8 @@
     <string name="active_triggers">Desencadenantes Activos</string>
     <string name="active_triggers_global_desc">Selecciona qué eventos globales activan la isla</string>
     <string name="type_standard_desc">Mensajes normales, correos electrónicos y alertas</string>
-    <string name="type_progress_desc">Ongoing tasks, rendering, and operations</string>
-    <string name="type_download_desc">Downloads, uploads, and file transfers</string>
+    <string name="type_progress_desc">Tareas en curso, procesamiento y operaciones</string>
+    <string name="type_download_desc">Descargas, subidas y transferencias de archivos</string>
     <string name="type_media_desc">Controles de reproducción de música y video</string>
     <string name="type_nav_desc">Indicaciones paso a paso y tiempo estimado (ETA)</string>
     <string name="type_call_desc">Llamadas telefónicas entrantes y en curso</string>
@@ -640,8 +640,7 @@
     <string name="onboard_design_desc">Amplía las posibilidades con diferentes opciones de personalización</string>
     <string name="behavior_desc_glob_config">Determina el comportamiento de la isla.</string>
     <string name="widget_layout_snapshot">Vista previa del widget</string>
-    <string name="changelog_0_5_0">
-        <b>Soporte para ROMs CN</b>\n
+    <string name="changelog_0_5_0"><b>Soporte para ROMs CN</b>\n
             • Habilita la nueva solución Sui &amp; Shizuku para disfrutar de Hyper Islands en tus dispositivos con ROMs HyperOS CN (China) sin soporte nativo.\n\n
         <b>Mejoras del Motor de Temas</b>\n
             • Selección de Motor: Ahora puedes elegir motores de animación por aplicación o globalmente.\n
@@ -654,21 +653,18 @@
             • El nuevo sistema de detección analiza automáticamente los iconos de notificación extraídos y los tiñe inteligentemente de blanco si son oscuros o monocromáticos.\n\n
         <b>Descargas y Progreso</b>\n
             • Nuevo Diseño Dedicado para Descargas: Diseños de descarga y progreso separados con diseños visuales dedicados.\n
-            • Soporte de Progreso de Texto: Texto de porcentaje analizado (por ejemplo, "12%") para actualizaciones de aplicaciones incluso sin barras de progreso nativas.\n
+            • Soporte de Progreso de Texto: Texto de porcentaje analizado (por ejemplo, \"12%\") para actualizaciones de aplicaciones incluso sin barras de progreso nativas.\n
             • Filtrado Inteligente: Verificación de progreso basada en texto restringida a descargas de tiendas e instaladores para evitar activaciones falsas en otras notificaciones de estado.\n\n
         <b>Correcciones de Mensajería</b>\n
-            • Se corrigió la falta de avatares del remitente en aplicaciones como Telegram (ahora extrae correctamente los datos "sender_person").\n
+            • Se corrigió la falta de avatares del remitente en aplicaciones como Telegram (ahora extrae correctamente los datos \"sender_person\").\n
             • Se resolvieron problemas con notificaciones agrupadas (resúmenes de chat) que no activaban las islas.\n
             • Se corrigieron errores de desaparición de la isla causados por condiciones de carrera en la actualización de notificaciones.\n\n
         <b>Sistema y Configuración Inicial</b>\n
             • Nueva Pantalla de Bienvenida: Un proceso de configuración completamente nuevo y más fácil para los permisos críticos.\n
             • Corrección de Inicio: El servicio ahora se inicia inmediata y confiablemente después de reiniciar.\n
             • Alertas más Inteligentes: Las descargas y medios se actualizan silenciosamente, mientras que las actualizaciones de mensajes activan animaciones emergentes de manera confiable.\n
-            • Navegación: Transiciones de aplicaciones más rápidas y fluidas.
-    </string>
+            • Navegación: Transiciones de aplicaciones más rápidas y fluidas    </string>
     <string name="title_0_5_0">La actualización en vivo</string>
     <string name="notification_went_wrong">¡Si ves esto, algo salió mal!</string>
     <string name="widget_went_wrong">¡Si estás viendo esto, algo salió mal! El sistema no puede mostrar el widget</string>
 </resources>
-
-

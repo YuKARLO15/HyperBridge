@@ -52,10 +52,10 @@
     <string name="system_setup">Configuration du système</string>
     <string name="system_setup_subtitle">Corriger les permissions &amp; batterie</string>
     <!-- Permanent Island -->
-    <string name="permanent_island_title">Permanent Island</string>
-    <string name="permanent_island_desc">Keep the Dynamic Island permanently visible on screen when there are no active notifications.</string>
-    <string name="permanent_island_screen_desc">When enabled, an empty Dynamic Island will be shown permanently on your screen. It will automatically hide when real notifications arrive and reappear when all notifications are cleared. It will not be visible in your notification shade.</string>
-    <string name="permanent_island_width">Island Width</string>
+    <string name="permanent_island_title">Notification permanente</string>
+    <string name="permanent_island_desc">Gardez Dynamic Island visible en permanence à l\'écran lorsqu\'il n\'y a pas de notification active.</string>
+    <string name="permanent_island_screen_desc">Lorsque cette option est activée, une île dynamique vide sera affichée de façon permanente sur votre écran. Il se masquera automatiquement lorsque des notifications réelles arriveront et réapparaîtra lorsque toutes les notifications seront effacées. Elles ne seront pas visibles dans votre zone de notification.</string>
+    <string name="permanent_island_width">Largeur de l\'île</string>
     <string name="group_about">A propos</string>
     <string name="developer">Développeur</string>
     <string name="developer_subtitle">Visiter d4viddf.com</string>
@@ -86,7 +86,7 @@
     <string name="select_active_notifs">Sélectionner les notifications actives</string>
     <string name="type_standard">Messages &amp; Général</string>
     <string name="type_progress">Téléchargements &amp; Progression</string>
-    <string name="type_download">Downloads</string>
+    <string name="type_download">Téléchargements</string>
     <string name="type_media">Musique &amp; Média</string>
     <string name="type_nav">Cartes &amp; GPS</string>
     <string name="type_call">Appels</string>
@@ -237,14 +237,15 @@
     <string name="status_unknown">Inconnu</string>
     <string name="warning_cn_rom_title">Rom chinoise détectée</string>
     <string name="warning_cn_rom_desc">Votre appareil semble exécuter un firmware chinois. Xiaomi modifie considérablement le système de notification interne sur les ROMs CN. Les fonctionnalités peuvent être instables ou ne pas fonctionner du tout.</string>
-    <string name="shizuku_workaround_title">Enable Shizuku Workaround</string>
-    <string name="shizuku_workaround_desc">If you are on a CN ROM, you must enable the Shizuku Workaround for notifications to trigger correctly.</string>
-    <string name="shizuku_status_running">Shizuku is running</string>
-    <string name="shizuku_status_not_running">Shizuku is not running</string>
-    <string name="shizuku_permission_granted">Permission Granted</string>
-    <string name="shizuku_permission_denied">Permission Denied</string>
-    <string name="shizuku_request_permission">Grant Shizuku Permission</string>
-    <string name="shizuku_not_installed">Shizuku app is not installed or running. Please install and start Shizuku first.</string>
+    <string name="shizuku_workaround_title">Activer la solution Shizuku</string>
+    <string name="shizuku_enable_workaround">Activer le contournement</string>
+    <string name="shizuku_workaround_desc">Si vous êtes sur une ROM CN, vous devez activer la fonction Shizuku pour que les notifications soient activées correctement.</string>
+    <string name="shizuku_status_running">Shizuku en cours d\'exécution</string>
+    <string name="shizuku_status_not_running">Shizuku n\'est pas en cours d\'exécution</string>
+    <string name="shizuku_permission_granted">Permission accordée</string>
+    <string name="shizuku_permission_denied">Permission refusée</string>
+    <string name="shizuku_request_permission">Accorder la permission à Shizuku</string>
+    <string name="shizuku_not_installed">L\'application Shizuku n\'est pas installée ou en cours d\'exécution. Veuillez installer et démarrer Shizuku en premier.</string>
     <string name="system_version">Version système</string>
     <string name="call_incoming">Appel entrant</string>
     <string name="call_ongoing">Appel en cours</string>
@@ -599,12 +600,12 @@
     <string name="island_behavior_desc"><![CDATA[Délai d’expiration, doublons et visibilité]]></string>
     <string name="engine">Moteur</string>
     <string name="engine_desc">Notifications natives vs Xiaomi</string>
-    <string name="dnd_mode_title">Do Not Disturb</string>
-    <string name="dnd_mode_desc">Manage island visibility during DND</string>
-    <string name="dnd_manual_toggle">Pause Islands</string>
-    <string name="dnd_manual_toggle_desc">Manually pause all islands until you turn this back on</string>
-    <string name="dnd_auto_detect">Auto-detect System DND</string>
-    <string name="dnd_auto_detect_desc">Automatically pause islands when your phone is in Do Not Disturb mode</string>
+    <string name="dnd_mode_title">Ne pas déranger</string>
+    <string name="dnd_mode_desc">Gérer la visibilité de l\'île pendant le NPD</string>
+    <string name="dnd_manual_toggle">Suspendre les bulles de notifications</string>
+    <string name="dnd_manual_toggle_desc">Mettre en pause manuellement toutes les bulles de notifications jusqu\'à ce que vous réappuyez sur ce bouton</string>
+    <string name="dnd_auto_detect">Détection automatique du système du mode NPD</string>
+    <string name="dnd_auto_detect_desc">Mettre les bulles de notification en pause automatiquement lorsque votre téléphone est en mode Ne pas déranger</string>
     <string name="behaviour_triggers"><![CDATA[Comportement et Déclencheurs]]></string>
     <string name="engine_timeouts_triggers"><![CDATA[Moteur, délai d’expiration et déclencheurs]]></string>
     <string name="global_behavior">Comportement global</string>
@@ -618,7 +619,7 @@
     <string name="active_triggers_global_desc">Sélectionnez quels événements globaux déclenchent les notifications</string>
     <string name="type_standard_desc">Messages standards, emails et alertes</string>
     <string name="type_progress_desc">Téléchargements, envois et tâches en cours</string>
-    <string name="type_download_desc">Downloads, uploads, and file transfers</string>
+    <string name="type_download_desc">Téléchargements, envois et transferts de fichiers</string>
     <string name="type_media_desc">Contrôles de lecture de musique et de vidéo</string>
     <string name="type_nav_desc">Instructions de navigation et temps estimé d\'arrivée</string>
     <string name="type_call_desc">Appels entrants et en cours</string>
@@ -639,35 +640,32 @@
     <string name="onboard_design_desc">Augmentez les possibilités avec différentes options de personnalisation</string>
     <string name="behavior_desc_glob_config">Détermine le comportement de la bulle de notification.</string>
     <string name="widget_layout_snapshot">Aperçu du widget</string>
-    <string name="changelog_0_5_0">
-        <b>CN ROM Support</b>\n
-            • Enable the new Sui &amp; Shizuku workaround to enjoy the Hyper Islands in your devices running HyperOS CN (Chinese) ROMs without native support.\n\n
-        <b>Theme Engine Improvements</b>\n
-            • Engine Selection: You can now choose animation engines per-app or globally.\n
-            • Shizuku Workaround: Toggle added directly to the Theme Editor Engine tab.\n
-            • Behavior Controls: Custom timeouts and popup logic are now fully supported.\n\n
-        <b>Intelligent Permanent Island</b>\n
-            • Always Visible: Keep the island on screen even without active notifications.\n
-            • Auto-Hide: The permanent island now automatically hides itself whenever an active widget is shown on the screen.\n\n
-        <b>Smart Icon Tinting</b>\n
-            • New detection system automatically analyzes extracted notification icons and intelligently tints them white if they are dark or monochrome.\n\n
-        <b>Downloads &amp; Progress</b>\n
-            • New Dedicated Download Layout: Separated download and progress layouts with dedicated visual designs.\n
-            • Text Progress Support: Parsed percentage text (e.g. "12%") for app updates even without native progress bars.\n
-            • Smart Filtering: Restricted text-based progress checking to store and installer downloads to prevent false triggers on other status notifications.\n\n
-        <b>Messaging Fixes</b>\n
-            • Fixed missing sender avatars in apps like Telegram (now correctly extracts "sender_person" data).\n
-            • Resolved issues with grouped notifications (chat summaries) not triggering islands.\n
-            • Fixed island disappearance bugs caused by notification update race conditions.\n\n
-        <b>System &amp; Onboarding</b>\n
-            • New Onboarding Screen: A brand new and easier setup process for critical permissions.\n
-            • Boot Fix: Service now starts immediately and reliably after restart.\n
-            • Smarter Alerts: Downloads and Media update silently, while messaging updates reliably trigger popup animations.\n
-            • Navigation: Faster and smoother app transitions.
+    <string name="changelog_0_5_0">        <b>Support ROM CN</b>\n
+            • Utilisez Sui &amp; Shizuku pour profiter des notifications Hyper Islands sur vos appareils exécutant des ROM HyperOS CN (chinois) sans prise en charge native.\n\n
+        <b>Améliorations du moteur de thème</b>\n
+            • Sélection du moteur : vous pouvez désormais choisir le moteur d\'animation par application ou global.\n
+            • Solution de contournement Shizuku : option ajoutée directement à l\'onglet Moteur de l\'éditeur de thème.\n
+            • Contrôles de comportement : les délais d\'attente personnalisés et la logique contextuelle sont désormais entièrement pris en charge.\n\n
+        <b>Île permanente intelligente</b>\n
+            • Toujours visible : gardez la notification à l\'écran même sans notifications actives.\n
+            • Masquer automatiquement : l\'îlot permanent se cache désormais automatiquement chaque fois qu\'un widget actif est affiché à l\'écran.\n\n
+        <b>Teinture intelligente des icônes</b>\n
+            • Le nouveau système de détection analyse automatiquement les icônes de notification extraites et les teinte intelligemment en blanc si elles sont sombres ou monochromes.\n\n
+        <b>Téléchargements &amp; progression</b>\n
+            • Nouvelle présentation de téléchargement dédiée : présentations de téléchargement et de progression séparés avec des conceptions visuelles dédiées.\n
+            • Prise en charge de la progression du texte : pourcentage sous forme de texte (par exemple \"12 %\") pour les mises à jour d\'applications, même sans barres de progression natives.\n
+            • Filtrage intelligent : vérification de la progression basée sur du texte pour stocker et télécharger le programme d\'installation afin d\'éviter de faux déclenchements sur d\'autres notifications d\'état.\n\n
+        <b>Corrections de messagerie</b>\n
+            • Correction des avatars d\'expéditeur manquants dans des applications comme Telegram (extrait désormais correctement les données \"sender_person\").\n
+            • Problèmes résolus avec les notifications groupées (résumés de discussion) ne déclenchant pas les notifications.\n
+            • Correction de bugs de disparition des notifications causés par des conditions de mise à jour des notifications.\n\n
+        <b>Système &amp; Intégration</b>\n
+            • Nouvel écran d\'intégration : tout nouveau processus de configuration plus simple pour les autorisations critiques.\n
+            • Correctif de démarrage : le service démarre désormais immédiatement et de manière fiable après le redémarrage.\n
+            • Alertes plus intelligentes : les téléchargements et les médias sont mis à jour silencieusement, tandis que les mises à jour de messagerie déclenchent de manière fiable des animations contextuelles.\n
+            • Navigation : transitions d\'applications plus rapides et plus fluides.
     </string>
-    <string name="title_0_5_0">The Live Update</string>
-    <string name="notification_went_wrong">If you are seeing this, something went wrong!</string>
-    <string name="widget_went_wrong">If you are seeing this, something went wrong! The system couldn\'t show the widget</string>
+    <string name="title_0_5_0">La mise à jour \"Live Update\"</string>
+    <string name="notification_went_wrong">Si vous voyez cela, quelque chose s\'est mal passé !</string>
+    <string name="widget_went_wrong">Si vous voyez ceci, quelque chose s\'est mal passé ! Le système n\'a pas pu afficher le widget</string>
 </resources>
-
-

@@ -52,10 +52,10 @@
     <string name="system_setup">系統設定</string>
     <string name="system_setup_subtitle">修正權限 &amp; 電池設定</string>
     <!-- Permanent Island -->
-    <string name="permanent_island_title">Permanent Island</string>
-    <string name="permanent_island_desc">Keep the Dynamic Island permanently visible on screen when there are no active notifications.</string>
-    <string name="permanent_island_screen_desc">When enabled, an empty Dynamic Island will be shown permanently on your screen. It will automatically hide when real notifications arrive and reappear when all notifications are cleared. It will not be visible in your notification shade.</string>
-    <string name="permanent_island_width">Island Width</string>
+    <string name="permanent_island_title">永久超級島</string>
+    <string name="permanent_island_desc">當沒有活動通知時，保持超級島在螢幕上永久可見。</string>
+    <string name="permanent_island_screen_desc">啟用後，螢幕上將永久顯示一個空白的超級島。當收到實際通知時，它會自動隱藏；當所有通知清除後，它會自動重新出現。此超級島不會顯示在通知欄中。</string>
+    <string name="permanent_island_width">超級島寬度</string>
     <string name="group_about">關於</string>
     <string name="developer">開發者</string>
     <string name="developer_subtitle">造訪 d4viddf.com</string>
@@ -85,8 +85,8 @@
     <string name="cat_other">其他</string>
     <string name="select_active_notifs">選擇要顯示的通知</string>
     <string name="type_standard">訊息 &amp; 一般通知</string>
-    <string name="type_progress">Progress &amp; Tasks</string>
-    <string name="type_download">Downloads</string>
+    <string name="type_progress">進度 &amp; 任務</string>
+    <string name="type_download">下載</string>
     <string name="type_media">音樂 &amp; 媒體</string>
     <string name="type_nav">地圖 &amp; GPS</string>
     <string name="type_call">通話</string>
@@ -237,14 +237,15 @@
     <string name="status_unknown">未知</string>
     <string name="warning_cn_rom_title">偵測到中國版 ROM / 韌體</string>
     <string name="warning_cn_rom_desc">您的裝置似乎正在執行中國版韌體。小米在中國版 ROM 上大幅修改了通知系統底層，功能可能不穩定或無法運作。</string>
-    <string name="shizuku_workaround_title">Enable Shizuku Workaround</string>
-    <string name="shizuku_workaround_desc">If you are on a CN ROM, you must enable the Shizuku Workaround for notifications to trigger correctly.</string>
-    <string name="shizuku_status_running">Shizuku is running</string>
-    <string name="shizuku_status_not_running">Shizuku is not running</string>
-    <string name="shizuku_permission_granted">Permission Granted</string>
-    <string name="shizuku_permission_denied">Permission Denied</string>
-    <string name="shizuku_request_permission">Grant Shizuku Permission</string>
-    <string name="shizuku_not_installed">Shizuku app is not installed or running. Please install and start Shizuku first.</string>
+    <string name="shizuku_workaround_title">啟用 Shizuku 用法</string>
+    <string name="shizuku_enable_workaround">啟用解決方法</string>
+    <string name="shizuku_workaround_desc">如果您使用的是中國版 ROM，則必須啟用 Shizuku 方法才能正確觸發通知。</string>
+    <string name="shizuku_status_running">Shizuku 正在運作</string>
+    <string name="shizuku_status_not_running">Shizuku 未啟動</string>
+    <string name="shizuku_permission_granted">✅ 已授予權限</string>
+    <string name="shizuku_permission_denied">權限被拒絕</string>
+    <string name="shizuku_request_permission">授予Shizuku權限</string>
+    <string name="shizuku_not_installed">Shizuku 應用未安裝或運作。請先安裝並啟動 Shizuku。</string>
     <string name="system_version">系統版本</string>
     <string name="call_incoming">來電</string>
     <string name="call_ongoing">通話中</string>
@@ -594,12 +595,12 @@
     <string name="island_behavior_desc"><![CDATA[超時、重複項及可見性]]></string>
     <string name="engine">引擎</string>
     <string name="engine_desc">即時更新 vs. 小米超級島</string>
-    <string name="dnd_mode_title">Do Not Disturb</string>
-    <string name="dnd_mode_desc">Manage island visibility during DND</string>
-    <string name="dnd_manual_toggle">Pause Islands</string>
-    <string name="dnd_manual_toggle_desc">Manually pause all islands until you turn this back on</string>
-    <string name="dnd_auto_detect">Auto-detect System DND</string>
-    <string name="dnd_auto_detect_desc">Automatically pause islands when your phone is in Do Not Disturb mode</string>
+    <string name="dnd_mode_title">零打擾</string>
+    <string name="dnd_mode_desc">在零打擾模式中啟用超級島</string>
+    <string name="dnd_manual_toggle">暫停超級島</string>
+    <string name="dnd_manual_toggle_desc">手動暫停所有超級島，直到您重新開啟此功能</string>
+    <string name="dnd_auto_detect">自動偵測零打擾模式</string>
+    <string name="dnd_auto_detect_desc">當您的手機處於零打擾模式時，自動暫停超級島功能</string>
     <string name="behaviour_triggers"><![CDATA[行為 & 觸發]]></string>
     <string name="engine_timeouts_triggers"><![CDATA[引擎、超時及觸發]]></string>
     <string name="global_behavior">預設行為</string>
@@ -612,8 +613,8 @@
     <string name="active_triggers">執行中的程式通知</string>
     <string name="active_triggers_global_desc">選擇哪一個全域條件來觸發超級島</string>
     <string name="type_standard_desc">預設的訊息、郵件及鬧鐘</string>
-    <string name="type_progress_desc">Ongoing tasks, rendering, and operations</string>
-    <string name="type_download_desc">Downloads, uploads, and file transfers</string>
+    <string name="type_progress_desc">正在進行的任務、渲染和操作</string>
+    <string name="type_download_desc">下載、上傳及正在進行的任務</string>
     <string name="type_media_desc">音樂及影片的播放控制</string>
     <string name="type_nav_desc">逐嚮導航和預計到達時間</string>
     <string name="type_call_desc">來電與通話</string>
@@ -634,35 +635,31 @@
     <string name="onboard_design_desc">利用不同的自訂選項拓展可能性</string>
     <string name="behavior_desc_glob_config">決定超級島的呈現方式。</string>
     <string name="widget_layout_snapshot">預覽小工具</string>
-    <string name="changelog_0_5_0">
-        <b>CN ROM Support</b>\n
-            • Enable the new Sui &amp; Shizuku workaround to enjoy the Hyper Islands in your devices running HyperOS CN (Chinese) ROMs without native support.\n\n
-        <b>Theme Engine Improvements</b>\n
-            • Engine Selection: You can now choose animation engines per-app or globally.\n
-            • Shizuku Workaround: Toggle added directly to the Theme Editor Engine tab.\n
-            • Behavior Controls: Custom timeouts and popup logic are now fully supported.\n\n
-        <b>Intelligent Permanent Island</b>\n
-            • Always Visible: Keep the island on screen even without active notifications.\n
-            • Auto-Hide: The permanent island now automatically hides itself whenever an active widget is shown on the screen.\n\n
-        <b>Smart Icon Tinting</b>\n
-            • New detection system automatically analyzes extracted notification icons and intelligently tints them white if they are dark or monochrome.\n\n
-        <b>Downloads &amp; Progress</b>\n
-            • New Dedicated Download Layout: Separated download and progress layouts with dedicated visual designs.\n
-            • Text Progress Support: Parsed percentage text (e.g. "12%") for app updates even without native progress bars.\n
-            • Smart Filtering: Restricted text-based progress checking to store and installer downloads to prevent false triggers on other status notifications.\n\n
-        <b>Messaging Fixes</b>\n
-            • Fixed missing sender avatars in apps like Telegram (now correctly extracts "sender_person" data).\n
-            • Resolved issues with grouped notifications (chat summaries) not triggering islands.\n
-            • Fixed island disappearance bugs caused by notification update race conditions.\n\n
-        <b>System &amp; Onboarding</b>\n
-            • New Onboarding Screen: A brand new and easier setup process for critical permissions.\n
-            • Boot Fix: Service now starts immediately and reliably after restart.\n
-            • Smarter Alerts: Downloads and Media update silently, while messaging updates reliably trigger popup animations.\n
-            • Navigation: Faster and smoother app transitions.
-    </string>
+    <string name="changelog_0_5_0">        <b> 中國版ROM 支援 </b>\n
+        • 啟用新的 Sui &amp; Shizuku 變通方案，即可在執行 HyperOS 中國版ROM 且不支援原生功能的裝置上體驗小米超級島。 \n\n
+        <b>主題引擎改善</b>\n
+        • 引擎選擇：現在您可以為每個應用程式或預設選擇動畫引擎。 \n
+        • Shizuku 變通方案：已將切換開關直接新增至主題編輯器的引擎標籤。 \n
+        • 行為控制：現在完全支援自訂逾時和彈出邏輯。 \n\n
+        <b>智慧永久島</b>\n
+        • 隨時可見：即使沒有活動通知，超級島也會保持在螢幕上。 \n
+        • 自動隱藏：現在，當螢幕上顯示小工具時，永久島會自動隱藏。 \n\n
+        <b>智慧型圖示著色</b>\n
+        • 新的檢測系統會自動分析提取通知圖標，如果圖標是深色或單色的，則會聰明地將其著色為白色。 \n\n
+        <b>下載 &amp;進度</b>\n
+        • 全新專用下載佈局：獨立的下載和進度佈局，採用專屬視覺設計。 \n
+        • 文字進度支援：即使沒有原生進度條，也能解析應用更新的百分比文字（例如「12%」）。 \n
+        • 智慧過濾：限制基於文字的進度檢查，僅用於商店和安裝程式下載，以防止誤觸其他狀態通知。 \n\n
+    <b>訊息修復</b>\n
+        • 修正了 Telegram 等應用程式中缺少寄件者頭像的問題（現在可以正確提取「sender_person」資料）。 \n
+        • 解決了分組通知（聊天摘要）無法觸發超級島的問題。 \n
+        • 修正了通知更新競爭條件所導致的超級島消失錯誤。 \n\n
+<b>系統 &amp;引導流程</b>\n
+        • 全新引導介面：關鍵權限的設定流程更方便。 \n
+        • 啟動修復：服務現在在重新啟動後能夠立即可靠地啟動。 \n
+        • 更聰明的提醒：下載和媒體更新將靜默進行，而訊息更新則會可靠地觸發彈出動畫。 \n
+        • 導航：應用程式切換更加流暢快速    </string>
     <string name="title_0_5_0">即時更新</string>
     <string name="notification_went_wrong">如果您看到此訊息，說明出現錯誤！</string>
     <string name="widget_went_wrong">如果您看到此訊息，表示出錯了！系統無法顯示該小工具</string>
 </resources>
-
-
